@@ -5,7 +5,7 @@
 3. Compile the binary with
 
 ```zsh
-./pint app:build
+./stout app:build
 ```
 
 4. Commit all changes
