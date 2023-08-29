@@ -6,8 +6,8 @@ body:
       value: "Before submitting your report, [please ensure your Laravel version is still supported](https://laravel.com/docs/releases#support-policy)."
   - type: input
     attributes:
-      label: Pint Version
-      description: Provide the Pint version that you are using.
+      label: Stout Version
+      description: Provide the Stout version that you are using.
       placeholder: 1.6.1
     validations:
       required: true
