@@ -1,18 +1,22 @@
 {
-    "name": "laravel/pint",
-    "description": "An opinionated code formatter for PHP.",
+    "name": "johnbacon/stout",
+    "description": "A simple fork of Laravel Pint, now with tab indentation!",
     "keywords": ["php", "format", "formatter", "lint", "linter"],
-    "homepage": "https://laravel.com",
+    "homepage": "https://github.com/johnbacon/stout",
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/pint/issues",
-        "source": "https://github.com/laravel/pint"
+        "issues": "https://github.com/johnbacon/stout/issues",
+        "source": "https://github.com/johnbacon/stout"
     },
     "authors": [
         {
             "name": "Nuno Maduro",
             "email": "enunomaduro@gmail.com"
+        },
+        {
+            "name": "John Bacon",
+            "email": "jpbacon@gmail.com"
         }
     ],
     "require": {
@@ -57,5 +61,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["builds/pint"]
+    "bin": ["builds/stout"]
 }

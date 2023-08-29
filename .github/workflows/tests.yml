@@ -44,7 +44,7 @@ jobs:
           composer install
 
       - name: Execute lint tests with Laravel preset
-        run: ./pint --test
+        run: ./stout --test
 
       - name: Execute static analysis
         run: vendor/bin/phpstan

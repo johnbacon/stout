@@ -24,6 +24,8 @@
 /phpunit.xml.dist export-ignore
 /pint export-ignore
 /pint.json export-ignore
+/stout export-ignore
+/stout.json export-ignore
 /resources export-ignore
 /src export-ignore
 /storage export-ignore
