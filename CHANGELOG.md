@@ -1,6 +1,27 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/pint/compare/v1.13.9...main)
+## [Unreleased](https://github.com/laravel/pint/compare/v1.15.1...main)
+
+## [v1.15.1](https://github.com/laravel/pint/compare/v1.15.0...v1.15.1) - 2024-04-02
+
+* Enable --help flag for pint by [@penyaskito](https://github.com/penyaskito) in https://github.com/laravel/pint/pull/264
+
+## [v1.15.0](https://github.com/laravel/pint/compare/v1.14.0...v1.15.0) - 2024-03-26
+
+* Add the possibility to override the cache file path in command line by [@jimmyklein-actual](https://github.com/jimmyklein-actual) in https://github.com/laravel/pint/pull/255
+* [1.x] Adds `--bail` flag by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/pint/pull/261
+
+## [v1.14.0](https://github.com/laravel/pint/compare/v1.13.11...v1.14.0) - 2024-02-20
+
+* Add `--no-config` option by [@jasonmccreary](https://github.com/jasonmccreary) in https://github.com/laravel/pint/pull/250
+
+## [v1.13.11](https://github.com/laravel/pint/compare/v1.13.10...v1.13.11) - 2024-02-13
+
+* [1.x] Bumps dependencies by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/pint/pull/249
+
+## [v1.13.10](https://github.com/laravel/pint/compare/v1.13.9...v1.13.10) - 2024-01-22
+
+* Bump Dependencies and fix spacing issue by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/244
 
 ## [v1.13.9](https://github.com/laravel/pint/compare/v1.13.8...v1.13.9) - 2024-01-16
 

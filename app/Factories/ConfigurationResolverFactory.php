@@ -54,10 +54,10 @@ class ConfigurationResolverFactory
                     sprintf('%s.php', $preset),
                 ]),
                 'diff' => $output->isVerbose(),
-                'dry-run' => $input->getOption('test'),
+                'dry-run' => $input->getOption('test') || $input->getOption('bail'),
                 'path' => $path,
                 'path-mode' => ConfigurationResolver::PATH_MODE_OVERRIDE,
-                'cache-file' => $localConfiguration->cacheFile() ?? implode(DIRECTORY_SEPARATOR, [
+                'cache-file' => $input->getOption('cache-file') ?? $localConfiguration->cacheFile() ?? implode(DIRECTORY_SEPARATOR, [
                     realpath(sys_get_temp_dir()),
                     md5(
                         app()->isProduction()
@@ -65,7 +65,7 @@ class ConfigurationResolverFactory
                         : (string) microtime()
                     ),
                 ]),
-                'stop-on-violation' => false,
+                'stop-on-violation' => $input->getOption('bail'),
                 'verbosity' => $output->getVerbosity(),
                 'show-progress' => 'true',
             ],
