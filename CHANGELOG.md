@@ -1,6 +1,23 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/pint/compare/v1.15.1...main)
+## [Unreleased](https://github.com/laravel/pint/compare/v1.16.1...main)
+
+## [v1.16.1](https://github.com/laravel/pint/compare/v1.16.0...v1.16.1) - 2024-06-18
+
+* [1.x] Enable single_line_empty_body fixer by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/277
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/279
+
+## [v1.16.0](https://github.com/laravel/pint/compare/v1.15.3...v1.16.0) - 2024-05-21
+
+* [1.x] Enable Parallel Execution by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/272
+
+## [v1.15.3](https://github.com/laravel/pint/compare/v1.15.2...v1.15.3) - 2024-04-30
+
+* feat: Add a --with-exit-status flag by [@dshafik](https://github.com/dshafik) in https://github.com/laravel/pint/pull/270
+
+## [v1.15.2](https://github.com/laravel/pint/compare/v1.15.1...v1.15.2) - 2024-04-23
+
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/267
 
 ## [v1.15.1](https://github.com/laravel/pint/compare/v1.15.0...v1.15.1) - 2024-04-02
 
